@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserLogin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7903bfed90.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1><a href="#">UserLogin</a></h1>
+    </header>
+    <main>
+        <form>
+            <section class="makelogin">
+                <h2>Bem vindo(a)!</h2>
+            </section>
+            <section class="inputs-container">
+                <input type="email" placeholder="example@gmail.com">
+
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="******">
+                    <i class="fa-solid fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fa-solid fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+            </section>
+
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <Span>Lembrar senha</Span>
+                </div>
+
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com:</span>
+
+                <aside>
+                    <a href="#"><i class="fa-brands fa-google-plus-g google"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in linkedin"></i></a>
+                </aside>
+            </section>
+            
+            
+            
+            
+            <footer>
+                <hr>
+                <span>Ainda não possui uma conta? <a href="#">Cadastre-se</a></span>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
